@@ -1,6 +1,7 @@
 {
   "online_version_code": 46,
+  "online_version_name": "0.9.16(46)"
   "change_log": "https://getsurfboard.github.io/surfboard/CHANGELOG.html",
-  "apk_url": "https://github.com/getsurfboard/surfboard_apks/raw/master/app_release_aligned.apk",
+  "apk_url": "https://github.com/getsurfboard/surfboard/releases/download/0.9.16(46)/app_release_aligned.apk",
   "min_version_code": 30
 }
