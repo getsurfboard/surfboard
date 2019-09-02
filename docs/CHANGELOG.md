@@ -7,3 +7,8 @@
 - Fix email feedback crash
 - Update speedtest ui
 - Bugs fixed
+
+### 0.9.14(45)
+
+- Improve throughput performance(Up to 300Mbps+)
+- Bugs fixed
