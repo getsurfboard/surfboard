@@ -1,5 +1,12 @@
 # ChangeLog
 
+### 0.9.18(49)
+
+- Rewrite tcp handler for better memory usage
+- Add proxygroup toggle function
+- Add Notification Channel Setting entrance
+- Bug fix
+
 ### 0.9.16(47)
 
 - Fix ss tcp speedtest issue
