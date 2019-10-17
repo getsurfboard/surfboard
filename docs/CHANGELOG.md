@@ -1,5 +1,14 @@
 # ChangeLog
 
+### 0.9.19(50)
+
+- Fix network metered issue on Android 10
+- Fix speed test issue
+- Allow fetching profile using current profile
+- Add test-timeout/internet-test-url/proxy-test-url support
+- Remember proxygroup toggle state
+- Avoid displaying toast when fetch toast failed
+
 ### 0.9.18(49)
 
 - Rewrite tcp handler for better memory usage
