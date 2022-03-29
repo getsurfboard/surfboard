@@ -1,6 +1,63 @@
 # ChangeLog
 
-### 2.4.9
+### 2.5.9(102)
+
+Fix some memory/connection leak issue
+
+### 2.5.8(101)
+
+- Fix vmess/netflix compatibility issue cause by ipv6
+- Fix crashes
+- Print warning log when reject traffic
+- Support scan ss/vmess/trojan/http/https/surfboard/surge/surge3 format qrcode
+
+### 2.5.7(100)
+
+- Fix crashes
+- Improve vmess websocket compatibility
+- Update persian language
+
+### 2.5.6(99)
+
+- Fix speedtest issue
+- Bug fixed
+
+### 2.5.5(98)
+
+- update persian language
+- fix telegram using direct rule issue
+
+### 2.5.4(97)
+
+- Fix auto group speed test not working
+- Reset all existed tcp connection when change proxy group selection
+- Avoid forward proxy traffic dead lock
+- Fix crash cause by long file name
+
+### 2.5.3(96)
+
+- Fix speed test issue
+- Support basic auth in profile url
+
+### 2.5.2(95)
+
+- Fix speedtest issue
+
+### 2.5.1(94)
+
+- Fix speed test not stable issue
+- Fix fetching public IP error when use with other VPN
+- Add VMESS AEAD hint when first use
+- Add warning when new profile subscribe url is from localhost
+
+### 2.5.0(93)
+
+- Fix WebDAV synchronize issue with box.com
+- Update dashboard UI
+- Update maxmind geoip2lite library
+- Bug fixed
+
+### 2.4.9(92)
 
 - Add WebDAV synchronize support
 - Fix crash when restart VPN after rename profile
@@ -8,7 +65,7 @@
 - Improve save profile speed
 - Fix update profile last modify time no changing
 
-### 2.4.8
+### 2.4.8(91)
 
 - Improve ui compatibility with tablet devices
 - Add network speed display on status bar icon
@@ -16,7 +73,7 @@
 - Prompt to restart VPN when selecting profile
 - Bug fixed
 
-### 2.4.7
+### 2.4.7(90)
 
 - Fix profile import issue cause by policy-regex-filter
 - Improve profile name guess imported by url
@@ -25,11 +82,11 @@
 - Update sample.conf
 - Bug fixed
 
-### 2.4.6
+### 2.4.6(89)
 
 - Bug fixed
 
-### 2.4.5
+### 2.4.5(88)
 
 - Support policy-regex-filter and hidden in proxy group
 - Fix global outbound make network unavailable
@@ -38,20 +95,20 @@
 - Update UI
 - Bug fixed
 
-### 2.4.4
+### 2.4.4(87)
 
 - Support udp-relay in socks5/shadowsocks/vmess/trojan proxy
 - Fix import vmess url failed if contains slash
 - Fix some crash issue
 
-### 2.4.3
+### 2.4.3(86)
 
 - Improve traffic throughput
 - Update bypass apps ui, add search support
 - Fix ss proxy with domain cause stop VPN failed
 - Update UI
 
-### 2.4.2
+### 2.4.2(85)
 
 - Fix policy path issue
 - Add Indonesian support
@@ -59,12 +116,12 @@
 - Fix huge profile cause crash
 - Only use English app entrance name
 
-### 2.4.1
+### 2.4.1(84)
 
 - Fix gradle 7.0.1 cause R8 error
 - Update libuv/v2fly library
 
-### 2.4.0
+### 2.4.0(83)
 Fix socks5 proxy not working without authorization
 Add policy-path support
 Support surge3:///install-config?url=xxx
