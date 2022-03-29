@@ -2,7 +2,7 @@
 
 ### 2.5.9(102)
 
-Fix some memory/connection leak issue
+- Fix some memory/connection leak issue
 
 ### 2.5.8(101)
 
