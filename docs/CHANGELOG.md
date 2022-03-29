@@ -1,5 +1,77 @@
 # ChangeLog
 
+### 2.4.9
+
+- Add WebDAV synchronize support
+- Fix crash when restart VPN after rename profile
+- Fix fetch ip info failed after VPN established
+- Improve save profile speed
+- Fix update profile last modify time no changing
+
+### 2.4.8
+
+- Improve ui compatibility with tablet devices
+- Add network speed display on status bar icon
+- Add Public IP visibility toggle
+- Prompt to restart VPN when selecting profile
+- Bug fixed
+
+### 2.4.7
+
+- Fix profile import issue cause by policy-regex-filter
+- Improve profile name guess imported by url
+- Fix UI tab double click issue
+- Fix profile name contains slash cause crash
+- Update sample.conf
+- Bug fixed
+
+### 2.4.6
+
+- Bug fixed
+
+### 2.4.5
+
+- Support policy-regex-filter and hidden in proxy group
+- Fix global outbound make network unavailable
+- Hide notification in lockscreen
+- Make VMESS AEAD disable by default
+- Update UI
+- Bug fixed
+
+### 2.4.4
+
+- Support udp-relay in socks5/shadowsocks/vmess/trojan proxy
+- Fix import vmess url failed if contains slash
+- Fix some crash issue
+
+### 2.4.3
+
+- Improve traffic throughput
+- Update bypass apps ui, add search support
+- Fix ss proxy with domain cause stop VPN failed
+- Update UI
+
+### 2.4.2
+
+- Fix policy path issue
+- Add Indonesian support
+- Improve profile decode performance
+- Fix huge profile cause crash
+- Only use English app entrance name
+
+### 2.4.1
+
+- Fix gradle 7.0.1 cause R8 error
+- Update libuv/v2fly library
+
+### 2.4.0
+Fix socks5 proxy not working without authorization
+Add policy-path support
+Support surge3:///install-config?url=xxx
+Support enhanced mode domain rules
+Support decode http/socks5 proxy as TLS-based proxy
+Update GEOIP library
+
 ### 2.3.5(82)
 
 - Fix some profile import issue, support more import format
