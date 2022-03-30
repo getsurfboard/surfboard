@@ -9,3 +9,4 @@
 ### API
 
 - [Version](https://api.getsurfboard.com/version.json)
+- [Sponsors](https://api.getsurfboard.com/sponsors.json)
