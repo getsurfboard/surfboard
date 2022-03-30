@@ -2,9 +2,9 @@
 
 ### Pages
 
-- [CHANGELOG](http://api.getsurfboard.com/surfboard/CHANGELOG.html)
-- [PRIVACY_POLICY](http://api.getsurfboard.com/surfboard/PRIVACY_POLICY.html)
+- [CHANGELOG](http://api.getsurfboard.com/CHANGELOG.html)
+- [PRIVACY_POLICY](http://api.getsurfboard.com/PRIVACY_POLICY.html)
 
 ### API
 
-- [Version](http://api.getsurfboard.com/surfboard/version.json)
+- [Version](http://api.getsurfboard.com/version.json)
