@@ -1,5 +1,233 @@
 # ChangeLog
 
+### 2.9.0
+
+- Add DNS poisoning auto fix support
+- Fix tile not working on some devices
+- Small UI change
+- Bug fixed
+
+### 2.8.9
+
+- Fix profile serializable crash
+- Remove flurry
+- Use Crashlytics instead of Sentry
+
+### 2.8.8
+
+- Update translation
+- Fix splash screen top left corner frame
+- Optimize memory usage cause by huge profile/ruleSet/policyPath
+- Add quick change proxygroup selection ui
+- Improve editor launch performance
+- Add update profiles after vpn established toggle in settings
+- Bug fixed
+
+### 2.8.7
+
+- Avoid open vpn cause adb wifi reconnect
+- Update all profiles after vpn started
+- Fix crash
+- Update translation
+
+### 2.8.6
+
+- Update translation
+- Bug fixed
+
+### 2.8.5
+
+- Add app shortcut support
+- Add deeplink support:
+- surfboard:///toggle
+- surfboard:///start
+- surfboard:///stop
+- surfboard:///install-config?url=[encoded_profile_url]
+- Bypass config support batch operation
+- Support setting to use external editor
+- Fix manually update profile no refresh last modified time
+- Add change language animation
+
+### 2.8.4
+
+- add more transition animation
+- make language change take effect without restart
+- update editor font
+- fix navigationbar overlay issue in some ui
+- update translation
+- bug fixed
+
+### 2.8.3
+
+- editor support some emacs key map: Ctrl + [Shift] + N/P/F/B/A/E
+- proxy list support scroll to selected proxy
+- update translation
+- fix menu item repeat issue
+
+### 2.8.2
+
+- Profile Editor
+
+	- Add highlight support
+	- Add redo/undo support
+	- Add new empty profile support
+
+### 2.8.1
+
+- Support embeded editor
+- Small UI change
+
+### 2.8.0
+
+- Material Design 3
+- This version may be buggy and won't be release on Google Play until stable. Use on your own risk.
+
+### 2.7.9
+
+- Bug fixed
+
+### 2.7.8
+
+- Multiple proxy import now only support dividing with newline, space and vertical bar no longer supported
+- Update vietnamese translation
+- Fix crash
+
+### 2.7.7
+
+- Rewrite webdav synchronize module
+- Show profile update option even managed config url is invalid
+- Change vmess/trojan proxy default udp-relay value to false
+- Fix crash when updating invalid profile
+- Fix vmess uri compatibility
+- Bug fixed
+
+### 2.7.6
+
+- Remove direct/reject proxy in global proxy group
+- Clone profile as editable profile with managed config removed
+- Exclude unsupported proxy uri (like vless://xxx) when importing
+- Change default proxy column size to middle
+
+### 2.7.5
+
+- Fix SAF editing not trigger profile list refresh
+- Bug fixed.
+
+### 2.7.4
+
+- Support vmess-aead param in vmess proxy config.
+- Add DoH detect.
+- Bug fixed.
+- Use vmess-aead param to define per-proxy AEAD setting, if param not defined in the profile, default value in the settings will be used.
+- For profile format detail, please check the sample profile in the top right corner of profile list.
+
+### 2.7.3
+
+- Support Always-ON-VPN setting
+- Generate new profile name when reimporting existed profile
+- Improve ICMP/UDP traffic handle efficiency when using profile with tons of rules
+- Support hiding system apps in bypass config
+- Prompt restart VPN after bypass config changed
+- Add disable notification checking in settings
+- Fix active count flicking issue
+- Enable force-remote-dns by default
+- New profile update strategy
+
+### 2.7.2
+
+- Support always-real-ip
+- Support decoding sni param and proxy name from trojan uri
+- Enable udp-relay in vmess/trojan proxy by default
+- Block DoT traffic by default
+- Update all profile when app launch
+- Support decoding internal.example.com = server:syslib in [Host] section
+- Support domain suffix in skip-proxy config
+- Improve import profile error prompt
+- Add always-real-ip = stun.l.google.com in [General] section to fix Google Voice Dialing issue, proxy must support relaying UDP traffic.
+
+### 2.7.1
+
+- Keep proxy order from proxygroup which contains policy path and normal proxies
+- Update translation
+- Bug fixed
+
+### 2.7.0
+
+- Improve profile name guessing when import from url
+- Fix rule count error when include multiple ruleset with same source
+- Remove disk cache when removing external resource
+- Fix ip type trojan proxy import issue
+
+### 2.6.9
+
+- Improve huge profile compatibility
+- Improve TLS proxy compatibility
+- Improve profile decode speed
+- Treat REJECT-TINYGIF as REJECT rule (due to android not support MITM)
+- Add Surge manual entrance in tools tab
+
+### 2.6.8
+
+- Fix global group sequence not follow the profile content
+- Fix network speed display issue on 32bit devices
+- Reset all tcp connection when changing outbounds mode
+- Fix proxy count error in some policy path profiles
+- Fix some crashing when upgrade from GP version
+- Bug fixed
+
+### 2.6.7
+
+- Fix ruleSet/policyPath too huge cause crashing
+- Fix network error cause crashing
+- Fix custom uri scheme not working
+
+### 2.6.6
+
+- Allow display invalid profiles, now you are free to delete or modify them
+- Change external resource manager entrance to lower location
+- Use force-remote-dns in global outbound mode by default
+- Cache dns cache when toggle vpn, change outbound mode and change proxy group selection
+- Support batch delete unused external resources
+- Bug fixed
+
+### 2.6.5
+
+- Add external resources manage ui
+- Speed up notification bar tile toggle initial time
+- Use https://github.com/Loyalsoldier/geoip as embedded geoip library
+- Update url format validator
+- Bug fixed
+
+### 2.6.4
+
+- Add Force remote dns toggle in settings
+- Scroll to new position when clone/rename profile
+- Check invalid vmess url format
+- Bug fixed
+
+### 2.6.3
+
+- Add 'NEW' badge for new profile
+- Use FINAL rule to fetch public IP info if FINAL rule defined
+- ICMP: return fake ICMP reply if match FORWARD policy, return dest unreachable if match REJECT policy
+- Print debug info in logcat if click connection count card when VPN is opened
+- Little UI update
+
+### 2.6.1
+
+- Traffic with not supported proto will be reject by default
+- UDP reject will be handled by return ICMP port unreachable by default
+- Warning invalid profile url when importing profile
+- Fix some connection count issue
+- Add more restart vpn prompt
+- Hide network speed statusbar icon toggle on MIUI devices
+- Bug fixed
+
+### 2.6.0
+
+- fix crash
+- Support disable logcat output in settings
+
 ### 2.5.9(102)
 
 - Fix some memory/connection leak issue
