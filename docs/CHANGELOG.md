@@ -1,5 +1,15 @@
 # ChangeLog
 
+### 2.9.1
+
+- Refetch public ip info when changing outbound mode
+- Fix change global proxy not update public ip info
+- Fix crash cause by vpn quick start twice
+- Fix crash when viewing huge ruleSet/policyPath list
+- Add ChangeLog dialog when click version code
+- Fix random GEOIP crash on Android 5/6
+- Add sponsors list
+
 ### 2.9.0
 
 - Add DNS poisoning auto fix support
