@@ -1,5 +1,11 @@
 # ChangeLog
 
+### 2.9.2
+
+- Add local proxy support: http and socks5
+- Update dashboard UI
+- Enable lan traffic filter setting
+
 ### 2.9.1
 
 - Refetch public ip info when changing outbound mode
