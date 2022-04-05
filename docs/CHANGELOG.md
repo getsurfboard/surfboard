@@ -1,5 +1,11 @@
 # ChangeLog
 
+### 2.9.3
+
+- Fix local proxy address in use crash
+- Update outbound mode card UI
+- Fix crash when upgrade from v1.2.4
+
 ### 2.9.2
 
 - Add local proxy support: http and socks5
